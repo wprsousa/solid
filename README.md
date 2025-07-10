@@ -1,47 +1,48 @@
-# Desafio 05
+# 🧱 Desafio 05 - Módulo SOLID | Rocketseat
 
-## Desafio referente ao módulo: SOLID
-
-## Introdução
-
-Faaala Dev,
-
-Nesse desafio você reforçará de forma prática os conceitos que aprendemos nesse módulo.
-
-Como se trata de um desafio, ele necessita de alguns conhecimentos além dos abordados nesse módulo, então é importante ter autonomia para conseguir pesquisar essas coisas caso não saiba como resolver. Por isso, lembre-se, tenha calma e acredite no seu processo.
-
-O aprendizado daqui é muito importante e com certeza você conseguirá sair com muito conhecimento bacana 💜
+Este repositório contém a solução para o **Desafio 05** do módulo **SOLID** da trilha Python da Rocketseat.
 
 ---
 
-## Sobre o desafio
+## 💡 Sobre o Desafio
 
-Seguindo exemplo dado pelo instrutor nesse módulo, o desafio é aplicar os conceitos de **Single Responsability Principle** e **Open Closed Principle** no código fornecido no repositório abaixo.
+Neste desafio, o objetivo é aplicar dois princípios fundamentais do SOLID em um código legado:
 
-Em cada um dos arquivos de código, teremos uma explicação do desafio e o resultado esperado.
+- **Single Responsibility Principle (SRP)**: garantir que cada classe/função tenha uma única responsabilidade bem definida.
+- **Open/Closed Principle (OCP)**: permitir que o código seja estendido sem a necessidade de modificações na estrutura existente.
 
-📎 [Repositório base do desafio](https://github.com/rocketseat-education/py-desafio-modulo-7-template)
+O código base está disponível neste repositório:
 
----
+🔗 [Template do desafio](https://github.com/rocketseat-education/py-desafio-modulo-7-template)
 
-## Entrega
-
-Após concluir o desafio, você deve enviar a URL do seu código no GitHub para a plataforma. 
-
-Além disso, que tal fazer um post no LinkedIn compartilhando o seu aprendizado e contando como foi a experiência?
-
-É uma excelente forma de demonstrar seus conhecimentos e atrair novas oportunidades!
+Cada arquivo contém instruções específicas e o comportamento esperado após a refatoração.
 
 ---
 
-Feito com 💜 por Rocketseat 👋
+## 🚀 Tecnologias
+
+- Python 3.11+
+- Pytest (para testes automatizados)
 
 ---
 
-## Repositório de consulta
+## 🧪 Como executar os testes
 
-Antes de acessar o repositório com o desafio concluído, recomendamos fortemente que tente realizar o desafio.
+1. Instale as dependências:
 
-Caso tenha dúvidas/dificuldades técnicas, temos o fórum para te ajudar.
+```bash
+pip install -r requirements.txt
+```
 
-📎 [Repositório com resolução oficial](https://github.com/rocketseat-education/py-desafio-modulo-7-resolucao)
+
+2. Execute os testes:
+```bash
+pytest
+```
+
+
+---
+
+## 📁 Organização
+	•	O projeto segue a estrutura proposta pela Rocketseat.
+	•	Os princípios foram aplicados diretamente sobre os arquivos fornecidos no template.
